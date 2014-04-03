@@ -34,8 +34,8 @@
   </build>
 
    <scm>
-    <connection>scm:git:git@github.com:miringue/nc-cd-dcouverte.git</connection>
-    <developerConnection>scm:git:git@github.com:miringue/nc-cd-dcouverte.git</developerConnection>
+    <connection>scm:git:git@github.com:MYUSERNAM/zenika_nc.git</connection>
+    <developerConnection>scm:git:git@github.com:MYUSERNAM/zenika_nc.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
      
@@ -44,12 +44,12 @@
       <uniqueVersion>false</uniqueVersion>
        <id>local-repository</id>
                <name>Local Repository</name>
-                <url>/home</url>
+                <url>file:///path/to/MyRepo</url>
         </repository>
             <snapshotRepository>
                <id>snapshot-local-repository</id>
                <name>Local Repository</name>
-                <url>/home</url>
+                <url>file:///path/to/MyRepo</url>
             </snapshotRepository>
   </distributionManagement>
 
